@@ -5,6 +5,7 @@ import pickle
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import r2_score
 
 st.title('Superstore Sales')
